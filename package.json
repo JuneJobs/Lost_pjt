@@ -1,0 +1,22 @@
+{
+  "name": "lost_pjt",
+  "version": "1.0.0",
+  "description": "QR code.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuneJobs/Lost_pjt.git"
+  },
+  "author": "Junhee Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuneJobs/Lost_pjt/issues"
+  },
+  "homepage": "https://github.com/JuneJobs/Lost_pjt#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
