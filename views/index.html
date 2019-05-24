@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+     <script language="javascript">
+      showPopup = (value) => {
+         alert('분실물 정보는 다음과 같습니다: '+ value);
+      }
+    </script>
+  </head>
+  <body>
+    분실물을 찾아 주시겠습니까?
+    <h1></h1>
+    <input type="button" value="OK" onclick="showPopup(<%= code %>);" />
+  </body>
+</html>

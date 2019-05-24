@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+     <script language="javascript">
+        showPopup = () => {
+            let tag = document.getElementById("qrcode");
+            let count = parseInt(Math.random()*100);
+            let imgTag = `<img src='https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=www.intuseer.co.kr:1221/main?code=${count}' id="img"/ >`;
+            tag.innerHTML = imgTag;
+        }
+    </script>
+  </head>
+  <body>
+    큐알코드를 받으시려면 버튼을 클릭해주세요
+    <h1></h1>
+    <input type="button" value="OK" onclick="showPopup();" />
+    <div id='qrcode'>
+    </div> 
+  </body>
+</html>
